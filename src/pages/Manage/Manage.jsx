@@ -1,3 +1,4 @@
+import "../page.css";
 import "./Manage.css";
 
 import Header from "../../components/Header";
@@ -13,7 +14,7 @@ class ManagePage extends React.Component {
       <Layout
         header={<Header />}
         content={
-          <div className="page page-manage-data container">
+          <div className="page page-manage container">
             <h2 className="page-title">Manage Data</h2>
             <div className="page-content">
               <SchemeEditor schemeId={schemeId} attrId={attrId} />

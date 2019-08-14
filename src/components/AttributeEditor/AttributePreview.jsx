@@ -2,6 +2,7 @@ import Button from "../Button";
 import Field from "../Field";
 import IconPencil from "../Icon/IconPencil";
 import React from "react";
+import SplitBlock from "../SplitBlock";
 import { withRouter } from "react-router-dom";
 const AttributePreview = ({
   id,
@@ -35,8 +36,7 @@ const AttributePreview = ({
         {sensitive === 1 && "SI"}
         {sensitive === undefined && "-"}
       </Field>
-
-      <h4>POSIBLE VALUES</h4>
+      <SplitBlock>POSIBLE VALUES</SplitBlock>
       <table>
         <thead>
           <tr>

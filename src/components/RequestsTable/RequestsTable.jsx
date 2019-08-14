@@ -3,6 +3,7 @@ import "./RequestsTable.css";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import React from "react";
+import SplitBlock from "../SplitBlock";
 import StatusFlag from "../StatusFlag/";
 
 const RequestsTable = ({ requests = [], filter }) => {
@@ -34,7 +35,7 @@ const RequestsTable = ({ requests = [], filter }) => {
           </li>
         </ul>
       </nav>
-      <h4>{filter} REQUESTS</h4>
+      <SplitBlock>{filter} REQUESTS</SplitBlock>
       <table width="100%">
         <colgroup>
           <col width="20%" />

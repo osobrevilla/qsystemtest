@@ -1,5 +1,10 @@
 .requests-table {
   width: 100%;
+  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5em;
+  background: #fff;
+  padding: 1em;
+  font-size: 1.2em;
 }
 
 .requests-table nav {
@@ -7,7 +12,6 @@
   border-bottom: solid 1px #ddd;
 }
 .requests-table nav ul {
-  font-size: 1.2em;
   display: flex;
   margin: 0;
   padding: 0;
@@ -29,15 +33,7 @@
   border-bottom: solid 2px #000;
 }
 
-.requests-table h4 {
-  font-size: 1.3em;
-  background: #7da117;
-  padding: 1em;
-  color: white;
-}
-
 .requests-table table {
-  font-size: 1.2em;
   width: 100%;
 }
 

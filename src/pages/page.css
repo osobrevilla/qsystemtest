@@ -3,5 +3,7 @@
 }
 .page-title {
   font-size: 3em;
-  margin: 1.25em 0;
+  margin: 1em 0;
+  border-bottom: solid 1px #ddd;
+  padding: 0.5em 0;
 }

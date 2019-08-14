@@ -1,9 +1,10 @@
 import "./Review.css";
 
-import EmptyContent from "../../components/EmptyContent";
+import Empty from "../../components/Empty";
 import Header from "../../components/Header";
 import Layout from "../../layouts/SingleLayout";
 import React from "react";
+
 const ReviewPage = () => {
   return (
     <Layout
@@ -12,7 +13,7 @@ const ReviewPage = () => {
         <div className="page page-manage-data container">
           <h2 className="page-title">Review</h2>
           <div className="page-content">
-            <EmptyContent>Nada que mostrar</EmptyContent>
+            <Empty>Nada que mostrar</Empty>
           </div>
         </div>
       }

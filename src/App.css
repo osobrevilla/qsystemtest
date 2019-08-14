@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background: #f7f7f7;
 }
 
 * {
@@ -17,10 +18,11 @@ a,
 a:link,
 .btn {
   text-decoration: none;
-  transition: all 0.15s ease;
+  transition: transform 0.15s linear;
 }
 
 a:active,
 .btn:active {
-  transform: scale(1.05);
+  outline: none;
+  transform: scale(0.95);
 }

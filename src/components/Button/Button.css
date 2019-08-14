@@ -5,6 +5,7 @@
   padding: 1em;
   min-width: 75px;
   display: inline-block;
+  border-radius: 0.25em;
 }
 
 .btn > .icon {

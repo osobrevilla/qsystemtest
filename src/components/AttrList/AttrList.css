@@ -8,6 +8,8 @@
   display: block;
   background-color: #000;
   color: white;
+  padding: 1em 0;
+  border-radius: 0.5em;
 }
 
 .attr-list li {

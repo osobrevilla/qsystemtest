@@ -2,7 +2,7 @@ import "./SchemeEditor.css";
 
 import AttrList from "../AttrList";
 import AttributeEditor from "../AttributeEditor";
-import EmptyContent from "../EmptyContent";
+import Empty from "../Empty";
 import Loading from "../Loading";
 import React from "react";
 import { connect } from "react-redux";
@@ -27,7 +27,7 @@ class SchemeEditor extends React.Component {
           {attrs[+attrId] ? (
             <AttributeEditor schemeId={schemeId} attrs={attrs[+attrId]} />
           ) : (
-            <EmptyContent>Seleccione un attributo</EmptyContent>
+            <Empty center>Seleccione un attributo</Empty>
           )}
         </div>
       </div>

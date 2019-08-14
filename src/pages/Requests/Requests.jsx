@@ -1,3 +1,4 @@
+import "../page.css";
 import "./Requests.css";
 
 import Header from "../../components/Header";
@@ -21,7 +22,7 @@ class ManagePage extends React.Component {
       <Layout
         header={<Header />}
         content={
-          <div className="page page-manage-data container">
+          <div className="page page-request container">
             <h2 className="page-title">Requests</h2>
             <div className="page-content">
               {fetching ? (

@@ -5,6 +5,7 @@ import Field from "../Field";
 import IconSave from "../Icon/IconSave";
 import Input from "../Input";
 import React from "react";
+import SplitBlock from "../SplitBlock";
 import TextArea from "../TextArea";
 import { connect } from "react-redux";
 import { updateSchemeAttribute } from "../../actions";
@@ -84,7 +85,7 @@ class AttributeEdit extends React.Component {
           </label>
         </Field>
 
-        <h4>POSIBLE VALUES</h4>
+        <SplitBlock>POSIBLE VALUES</SplitBlock>
         <table>
           <thead>
             <tr>
