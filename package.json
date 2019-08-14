@@ -9,6 +9,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --colors --hot",
     "build": "webpack --mode production --colors",
+    "deploy": "npm run build && surge --domain qsystemtest.surge.sh --p dist",
     "test": "jest"
   },
   "jest": {

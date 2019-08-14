@@ -86,7 +86,7 @@ function requests(state = initState.requests, action) {
       };
 
     case FETCH_REQUESTS_BEGIN:
-      return { ...state, fetching: false };
+      return { ...state, fetching: true };
 
     case FETCH_REQUESTS_FAIL:
       return { ...state, fetching: false };
