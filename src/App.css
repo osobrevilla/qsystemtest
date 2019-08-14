@@ -26,3 +26,9 @@ a:active,
   outline: none;
   transform: scale(0.95);
 }
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
