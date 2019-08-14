@@ -1,0 +1,30 @@
+.field-select {
+  border: 0;
+  padding: 0.75em;
+  font-size: 100%;
+  box-shadow: 0 0px 2px 0px #ccc inset;
+  -webkit-appearance: none;
+  border-radius: 0;
+  min-width: 100px;
+  background: white;
+}
+
+.field-select-after {
+  position: relative;
+}
+.field-select-after::after {
+  pointer-events: none;
+  position: relative;
+  display: inline-block;
+  content: "▼";
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 100%;
+  font-size: 0.7em;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}

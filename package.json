@@ -1,0 +1,50 @@
+{
+  "name": "qsystem",
+  "version": "1.0.0",
+  "description": "FrontEnd Test Case",
+  "main": "index.js",
+  "repository": "git@github.com:osobrevilla/qsystem-test.git",
+  "author": "Oscar Sobrevilla <oscar.sobrevilla@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --colors --hot",
+    "build": "webpack --mode production --colors",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/react": "^9.1.1",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "react-test-renderer": "^16.9.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "normalizr": "^3.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  }
+}

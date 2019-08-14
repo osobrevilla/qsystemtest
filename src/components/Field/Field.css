@@ -1,0 +1,11 @@
+.field {
+  margin-top: 1.5em;
+}
+.field dt {
+  font-size: 1.1em;
+}
+.field dd {
+  margin: 0.7em 0;
+  padding: 0;
+  color: #999;
+}

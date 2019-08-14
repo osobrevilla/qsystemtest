@@ -1,0 +1,45 @@
+.attribute-editor {
+  font-size: 1.2em;
+}
+.attribute-editor-inside {
+  border: solid 1px #ddd;
+  padding: 1em;
+  position: relative;
+}
+.attribute-preview {
+  margin: 1em;
+}
+
+.attribute-edit {
+  margin: 1em;
+}
+
+.attribute-editor .btn-edit,
+.attribute-editor .btn-save {
+  position: absolute;
+  top: 0;
+  top: 1em;
+  right: 1em;
+}
+
+.attribute-editor h3 {
+  font-size: 1.5em;
+}
+.attribute-editor h4 {
+  background: rgb(125, 161, 23);
+  color: white;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+.attribute-editor table {
+  font-size: 0.9em;
+  display: block;
+  table-layout: fixed;
+}
+.attribute-editor table td,
+.attribute-editor table th {
+  width: 50%;
+  padding: 0.25em;
+  text-align: left;
+}

@@ -1,0 +1,16 @@
+.btn {
+  font-size: 0.9em;
+  color: white;
+  border: 0 none;
+  padding: 1em;
+  min-width: 75px;
+  display: inline-block;
+}
+
+.btn > .icon {
+  margin: 0 0.5em 0 0;
+  vertical-align: bottom;
+}
+.btn-primary {
+  background: rgb(125, 161, 23);
+}

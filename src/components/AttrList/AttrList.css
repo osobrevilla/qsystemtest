@@ -1,0 +1,42 @@
+.attr-list {
+  font-size: 1.2em;
+}
+.attr-list ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-color: #000;
+  color: white;
+}
+
+.attr-list li {
+  display: block;
+  position: relative;
+}
+
+.attr-list li a {
+  display: block;
+  color: white;
+  padding: 1em 1.5em;
+}
+
+.attr-list li a.active,
+.attr-list li a:hover {
+  background-color: rgb(125, 161, 23);
+}
+
+.attr-list li a.active::after {
+  display: block;
+  content: "▶";
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 100%;
+  font-size: 0.7em;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+.scheme-editor {
+  display: flex;
+  width: 100%;
+}
+
+.scheme-editor-list {
+  width: 200px;
+  margin-right: 1em;
+}
+
+.scheme-editor-content {
+  flex: 1;
+}
