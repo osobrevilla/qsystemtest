@@ -27,7 +27,7 @@ class SchemeEditor extends React.Component {
           {attrs[+attrId] ? (
             <AttributeEditor schemeId={schemeId} attrs={attrs[+attrId]} />
           ) : (
-            <Empty center>Seleccione un attributo</Empty>
+            <Empty center>Seleccione un atributo</Empty>
           )}
         </div>
       </div>

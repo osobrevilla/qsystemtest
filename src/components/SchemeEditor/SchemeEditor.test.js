@@ -43,7 +43,7 @@ test("Correctly initial mount of scheme editor", async () => {
           element.parentNode.classList.contains("attr-list")
         );
       }),
-      getByText(container, "Seleccione un attributo")
+      getByText(container, "Seleccione un atributo")
     ],
     { container }
   );
