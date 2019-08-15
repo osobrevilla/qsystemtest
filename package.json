@@ -9,7 +9,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --colors --hot",
     "build": "webpack --mode production --colors",
-    "deploy": "npm run build && surge --domain qsystemtest.surge.sh --p dist",
+    "deploy": "npm run test && npm run build && surge --domain qsystemtest.surge.sh --p dist",
     "test": "jest"
   },
   "jest": {
@@ -24,6 +24,7 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@testing-library/react": "^9.1.1",
+    "@types/jest": "^24.0.17",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
@@ -39,6 +40,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
+    "node-fetch": "^2.6.0",
     "normalizr": "^3.4.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

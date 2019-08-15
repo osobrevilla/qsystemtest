@@ -7,7 +7,7 @@ const AttrList = ({ list, schemeId }) => {
   return (
     <div className="attr-list">
       <ul>
-        {list.map(attr => {
+        {list.map((attr, index) => {
           return (
             <li key={attr.id}>
               <NavLink to={`/schemes/${attr.schemeId}/${attr.id}`}>

@@ -41,7 +41,7 @@ function schemeEditor(state = initState.schemeEditor, action) {
 
     case SET_CURRENT_SCHEME:
       const normalized = normalize(action.payload, scheme);
-      console.log(normalized);
+      //console.log(normalized);
       const { entities } = normalized;
       return {
         ...state,
